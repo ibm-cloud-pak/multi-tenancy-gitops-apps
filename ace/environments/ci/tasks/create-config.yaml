@@ -65,6 +65,7 @@ spec:
       script: |
         #!/bin/bash
 
+
         set -e
 
         config_template_path=${WORKSPACE_PATH}/${IS_INFRA_DIRECTORY}
