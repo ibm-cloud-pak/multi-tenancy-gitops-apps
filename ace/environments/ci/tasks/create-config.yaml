@@ -66,7 +66,7 @@ spec:
         #!/bin/bash
 
 
-        set -e
+        set -ex
 
         config_template_path=${WORKSPACE_PATH}/${IS_INFRA_DIRECTORY}
         rendered_config_directory=${RENDERED_CONFIG_DIRECTORY}
