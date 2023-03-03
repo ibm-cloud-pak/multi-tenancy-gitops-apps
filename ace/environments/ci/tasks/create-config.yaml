@@ -67,7 +67,7 @@ spec:
 
 
         set -ex
-
+        echo "$(date -u): $0 starting..."
         config_template_path=${WORKSPACE_PATH}/${IS_INFRA_DIRECTORY}
         rendered_config_directory=${RENDERED_CONFIG_DIRECTORY}
         config_definition_path=${WORKSPACE_PATH}/${IS_CONFIG_DIRECTORY}
